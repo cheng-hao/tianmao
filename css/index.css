@@ -88,7 +88,6 @@ img{
 	height:30px;
 	margin:0 auto;
 	margin-top: 10px;
-
 }
 .searchk{
 	width:540px;
@@ -110,10 +109,11 @@ img{
 	width: 42px;
 	height: 242px;
 	position:fixed;
-	left: 40px;
+	left: 20px;
 	top:23%;
     display: none;
-	cursor:pointer
+	cursor:pointer;
+	z-index: 100;
     }
 .jumpp li{
 	width: 40px;
@@ -598,31 +598,31 @@ img{
 }
 
 .submenu{
-            display: none;
-            width: 780px;
-            height:480px;
-            left: 190px;
-            position: absolute;
-            top:0px;
-            border: 1px solid #DDD;
-            z-index: 10;
-            background: white;
-            box-shadow: 0 0 8px #DDD;
-            -moz-box-shadow: 0 0 8px #DDD;
-            -webkit-box-shadow: 0 0 8px #DDD;
+    display: none;
+    width: 780px;
+    height:480px;
+    left: 190px;
+    position: absolute;
+    top:0px;
+    border: 1px solid #DDD;
+    z-index: 10;
+    background: white;
+    box-shadow: 0 0 8px #DDD;
+    -moz-box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;
         }
 .leftdiv{
-        float: left;
-        width: 400px;
-        margin: 5px;
-        margin-top: 15px;
+    float: left;
+    width: 400px;
+    margin: 5px;
+    margin-top: 15px;
         }
 .rightdiv{
-        float: right;
-        width: 260px;
-        height:476px;
-        margin-right:30px;
-        margin-top: 15px;
+    float: right;
+    width: 260px;
+    height:476px;
+    margin-right:30px;
+    margin-top: 15px;
         
         }
 .titleh3{
@@ -998,6 +998,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f1-left2 img{
 	width:131px;
@@ -1028,6 +1029,7 @@ dl dd a:hover{
 	line-height: 202px;
 	font-size: 30px;
 	color:#9ea29f;
+	z-index: 10;
 }
 .btns2{
 	width:30px;
@@ -1039,6 +1041,7 @@ dl dd a:hover{
 	line-height: 202px;
 	font-size: 30px;
 	color:#9ea29f;
+	z-index: 10;
 }
 .f1-left3{
 	width:191px;
@@ -1108,6 +1111,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f2-left-2 img{
 	width:131px;
@@ -1186,6 +1190,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f3-left-2 img{
 	width:131px;
@@ -1267,6 +1272,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f4-left-2 img{
 	width:131px;
@@ -1348,6 +1354,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f5-left-2 img{
 	width:131px;
@@ -1429,6 +1436,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f6-left-2 img{
 	width:131px;
@@ -1510,6 +1518,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f7-left-2 img{
 	width:131px;
@@ -1591,6 +1600,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f8-left-2 img{
 	width:131px;
@@ -1672,6 +1682,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f9-left-2 img{
 	width:131px;
@@ -1753,6 +1764,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f10-left-2 img{
 	width:131px;
@@ -1834,6 +1846,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f11-left-2 img{
 	width:131px;
@@ -1915,6 +1928,7 @@ dl dd a:hover{
 	height:202px;
 	position: relative;
 	overflow: hidden;
+	z-index: 10;
 }
 .f12-left-2 img{
 	width:131px;
